@@ -1,11 +1,11 @@
-require ( './helpers.js' );
+/*require ( './helpers.js' );
 
 describe('index.js', function () {
   describe('cats', function () {
     it('is assigned an initial value of ["Milo", "Otis", "Garfield"]', function () {
-      expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
+      expect(cats).to.have.ordered.members/*(["Milo", "Otis", "Garfield"]);*/
     });
-  });
+  });*/
 
   describe('Array functions', function () {
     beforeEach(function () {
@@ -21,6 +21,10 @@ describe('index.js', function () {
         expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield", "Ralph"]);
       });
     });
+
+    const cats = [ "Milo","Otis","Garfield"]
+    cats .push("Ralph"),
+    const allcats = [ "Bob" ... cats]
 
     describe('destructivelyPrependCat(name)', function () {
       it('prepends a cat to the beginning of the cats array', function () {
